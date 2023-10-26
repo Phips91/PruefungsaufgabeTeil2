@@ -1,1 +1,7 @@
+#!/bin/bash
 
+# Upgrade pip
+${NB_PYTHON_PREFIX}/bin/pip install --no-cache-dir --upgrade pip
+
+# Install packages from requirements.txt
+${NB_PYTHON_PREFIX}/bin/pip install --no-cache-dir -r requirements.txt
