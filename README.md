@@ -18,6 +18,8 @@ Der gegebene Code implementiert eine Anwendung zur Verarbeitung von MNIST-Daten 
 2. Neuronales Netzwerk:
    - Definition eines mehrschichtigen neuronalen Netzwerks mit Platzhaltern für die Eingabe und Gewichts- und Bias-Variablen.
    - Festlegen der Kostenfunktion und des Optimierungsalgorithmus.
+   - Für die Festlegung der Kostenfunktion und des Optimierungsalgoritmus wurde eine Prozenteingabe implementiert. Dieser erwartet einen prozentualen Wert zwischen 0 - 100%.
+     (Für den hier vorliegenden Testfall wurde aus zeittechnisch Gründen mit 1% der Daten gearbeitet)
 
 3. Training und Vorhersage:
    - Die "TheAlgorithm"-Klasse enthält Methoden zur Modellierung und Evaluation.
