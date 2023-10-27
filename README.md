@@ -1,5 +1,7 @@
 #Projektname: PruefungsaufgabeTeil2
 
+Datensatz: MNIST-Projekt
+
 Anleitung zum Betrieb des Codes:
 -  MyBinder über den BinderBatch öffnen
 -  Nach dem öffnen des MyBinder, das Notebook ist auf der Linken Seite der Webpage zu finden, durch doppelklick wird es geöffnet.
