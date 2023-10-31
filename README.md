@@ -3,7 +3,7 @@
 Datensatz: MNIST-Projekt
 
 Anleitung zum Betrieb des Codes:
--  MyBinder über den BinderBatch öffnen [diese Version läuft aufgrund der max. RAM Kapazität von myBinder (2GB) über die myBinder Version von https://notebooks.gesis.org/binder/ welches eine Kooperation mit mybinder hat und 4GB RAM bereitstellt]
+-  MyBinder über den BinderBatch öffnen [diese Version läuft aufgrund der max. RAM Kapazität von myBinder (2GB) über die Verknüpfung der myBinder Version von https://notebooks.gesis.org/binder/ welches eine Kooperation mit mybinder hat und 4GB RAM bereitstellt]
 -  Nach dem öffnen über MyBinder, ist das Notebook auf der Linken Seite der Webpage zu finden, durch Doppelklick kann es geöffnet werden.
 -  Über den PlayButton kann das Notebook Schritt für Schritt durchgeführt werden, über das >> Symbol kann das System fast komplett durchlaufen, lediglich in der Mitte des Skriptes muss eine Prozentzahl für die Datenverarbeitung eingegeben werden.
 
@@ -14,7 +14,7 @@ Hier ist eine kurze Dokumentation zum gegebenen Code:
 Der gegebene Code implementiert eine Anwendung zur Verarbeitung von MNIST-Daten und zur Erstellung eines maschinellen Lernmodells. Hier ist eine Zusammenfassung der wichtigsten Funktionen und Teile des Codes:
 
 1. Datenverarbeitung:
-   - Zusammenbauen der Train-Data File des MNIST-Daten und Konvertieren der Labels in Ganzzahlen.
+   - Zusammenbauen der Train-Data File des MNIST-Daten und Konvertieren der Labels in Ganzzahlen. Der MNIST Datensatz wurde mit dem letzten Stand der Daten (31.10.2023) heruntergeladen und in das GitHub Repositorie geladen. Lediglich die Train-images Datei wurde zuvor in drei ZIP Files aufgeteilt um diese auf GitHub Hochladen zukönnen. Dies musste gemacht werden, da der Train-images Datensatz 45MB groß ist und GitHub nur eine maximale Upload Größe von 25MB zu lässt. Der Traings-images Datensatz wird direkt zum Anfang wieder zusammengebaut, so dass er komplett nutzbar ist.
    - Normalisieren der Daten und Aufteilen in Trainings- und Testdatensätze.
 
 2. Neuronales Netzwerk:
