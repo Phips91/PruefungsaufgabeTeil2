@@ -3,9 +3,9 @@
 Datensatz: MNIST-Projekt
 
 Anleitung zum Betrieb des Codes:
--  MyBinder über den BinderBatch öffnen
--  Nach dem öffnen des MyBinder, das Notebook ist auf der Linken Seite der Webpage zu finden, durch doppelklick wird es geöffnet.
--  Über den PlayButton können Sie das Notebook Schritt für Schritt durchführen.
+-  MyBinder über den BinderBatch öffnen [diese Version läuft aufgrund der max. RAM Kapazität von myBinder (2GB) über die myBinder Version von https://notebooks.gesis.org/binder/ welches eine Kooperation mit mybinder hat und 4GB RAM bereitstellt]
+-  Nach dem öffnen über MyBinder, ist das Notebook auf der Linken Seite der Webpage zu finden, durch Doppelklick kann es geöffnet werden.
+-  Über den PlayButton kann das Notebook Schritt für Schritt durchgeführt werden, über das >> Symbol kann das System fast komplett durchlaufen, lediglich in der Mitte des Skriptes muss eine Prozentzahl für die Datenverarbeitung eingegeben werden.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Phips91/PruefungsaufgabeTeil2/HEAD)
 
@@ -14,7 +14,7 @@ Hier ist eine kurze Dokumentation zum gegebenen Code:
 Der gegebene Code implementiert eine Anwendung zur Verarbeitung von MNIST-Daten und zur Erstellung eines maschinellen Lernmodells. Hier ist eine Zusammenfassung der wichtigsten Funktionen und Teile des Codes:
 
 1. Datenverarbeitung:
-   - Herunterladen von MNIST-Daten und Konvertieren der Labels in Ganzzahlen.
+   - Zusammenbauen der Train-Data File des MNIST-Daten und Konvertieren der Labels in Ganzzahlen.
    - Normalisieren der Daten und Aufteilen in Trainings- und Testdatensätze.
 
 2. Neuronales Netzwerk:
@@ -48,12 +48,12 @@ Zunächst wird die Startzeit gemessen.
 6. Es wird ein Klassifikationsbericht für den Testdatensatz erstellt, der die Genauigkeit und Leistung des Modells für jede Klasse zeigt.
 7. Die gesamte Ausführungszeit des Codes wird berechnet und angezeigt (ungefähr 50,51 Sekunden).
 
-"class TestInput" - Funktion (Laufzeit 0.001)
+"class TestInput" - Funktion (Laufzeit 0.01%)
 1. Die Methode test_fit testet, ob die Genauigkeit der fit-Funktion des Modells den erwarteten Trainingsgenauigkeitswert erreicht. Der Test wurde erfolgreich bestanden.
 2. Die Methode test_predict testet, ob die Genauigkeit der predict-Funktion des Modells den erwarteten Testgenauigkeitswert erreicht. Der Test wurde ebenfalls erfolgreich bestanden.
 3. Die Methode test_runtime_fit prüft, ob die Laufzeit der fit-Funktion innerhalb eines akzeptablen Bereichs liegt. Der Test schlägt jedoch fehl, da die gemessene Laufzeit von 18,396 Sekunden den Grenzwert von 0,0018 Sekunden (120% der repräsentativen Laufzeit) überschreitet.
 
-"class TestInput" - Funktion (Laufzeit 1.2)
+"class TestInput" - Funktion (Laufzeit 120%)
 1. Die Methode test_fit testet, ob die Genauigkeit der fit-Funktion des Modells den erwarteten Trainingsgenauigkeitswert erreicht. Der Test wurde erfolgreich bestanden.
 2. Die Methode test_predict testet, ob die Genauigkeit der predict-Funktion des Modells den erwarteten Testgenauigkeitswert erreicht. Der Test wurde ebenfalls erfolgreich bestanden.
 3. Die Methode test_runtime_fit überprüft, ob die Laufzeit der fit-Funktion innerhalb des akzeptablen Bereichs liegt. Im Gegensatz zur vorherigen Ausführung, hat dieser Test jetzt erfolgreich bestanden, da die gemessene Laufzeit von 18,039 Sekunden innerhalb des zulässigen Bereichs von 1,2-mal der repräsentativen Laufzeit liegt.
