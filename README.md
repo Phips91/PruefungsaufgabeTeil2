@@ -7,7 +7,6 @@ Anleitung zum Betrieb des Codes:
 -  Nach dem öffnen des MyBinder, das Notebook ist auf der Linken Seite der Webpage zu finden, durch doppelklick wird es geöffnet.
 -  Über den PlayButton können Sie das Notebook Schritt für Schritt durchführen.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Phips91/PruefungsaufgabeTeil2/HEAD)
 
 Hier ist eine kurze Dokumentation zum gegebenen Code:
 
