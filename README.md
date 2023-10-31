@@ -3,7 +3,7 @@
 Datensatz: MNIST-Projekt
 
 Anleitung zum Betrieb des Codes:
--  MyBinder über den BinderBatch öffnen [diese Version läuft aufgrund der max. RAM Kapazität von myBinder (2GB) über die Verknüpfung der myBinder Version von https://notebooks.gesis.org/binder/ welches eine Kooperation mit mybinder hat und 4GB RAM bereitstellt]
+-  MyBinder über den BinderBatch öffnen [diese Version läuft aufgrund der max. Memory Kapazität von myBinder (2GB) über die Verknüpfung der myBinder Version von https://notebooks.gesis.org/binder/ welches eine Kooperation mit mybinder hat und 4GB RAM bereitstellt, Gesis Notebooks ist Teil der myBinder Federation und nutzt ebenso wie myBinder original die gesamte Mybinder Architektur, lediglich dass 4GB Memory statt 2GB zur Verfügung stehen]
 -  Nach dem öffnen über MyBinder, ist das Notebook auf der Linken Seite der Webpage zu finden, durch Doppelklick kann es geöffnet werden.
 -  Über den PlayButton kann das Notebook Schritt für Schritt durchgeführt werden, über das >> Symbol kann das System fast komplett durchlaufen, lediglich in der Mitte des Skriptes muss eine Prozentzahl für die Datenverarbeitung eingegeben werden.
 
