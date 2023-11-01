@@ -7,7 +7,7 @@ Anleitung zum Betrieb des Codes:
 -  Nach dem öffnen über MyBinder, ist das Notebook auf der Linken Seite der Webpage zu finden, durch Doppelklick kann es geöffnet werden.
 -  Über den PlayButton kann das Notebook Schritt für Schritt durchgeführt werden, über das >> Symbol kann das System fast komplett durchlaufen, lediglich in der Mitte des Skriptes muss eine Prozentzahl für die Datenverarbeitung eingegeben werden.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Phips91/PruefungsaufgabeTeil2/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://notebooks.gesis.org/services/binder/v2/gh/Phips91/PruefungsaufgabeTeil2/HEAD)
 
 Hier ist eine kurze Dokumentation zum gegebenen Code:
 
